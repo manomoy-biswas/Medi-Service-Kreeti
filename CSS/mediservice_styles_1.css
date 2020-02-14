@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}.header-text{
+font-size:14px;
+}
+/*CSS for appointment button*/
+.btn-manual{
+	float: right;
+	padding: 3px 15px 3px;
+	border-radius: 25px;
+    font-size: 15px;
+    margin: 5px 0;
+}
+.btn-manual:hover{
+	background-color: #ffffff;
+    color: #17a2b8;
+}
+/*CSS for Nav bar*/
+.navbar {
+	height: 60px;
+  	z-index: 1;
+  	background-color: rgba(23,162,184,0.6);
+  	box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.4);
+}
+#navbar_supported_content {
+	position: absolute;
+  	width: 100%;
+  	top:60px;
+  	left: 0;
+}
+.menu-icon {
+	width: 32px;
+	height: 5px;
+	margin: 5px 0;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.menu-icon:focus{
+	outline: none;
+}
+.nav-item {
+  	background-color: #17a2b8;
+  	padding-top: 4px;
+ }
+.nav-item:hover {
+  	background-color: #ffffff;
+  	cursor: pointer;
+}
+.nav-item a {
+  	color: #ffffff;
+  	font-size: 16px;
+}
+.nav-item:hover a {
+	color: #17a2b8;
+}
+/*CSS for Banner*/
+.banner {
+    position: relative;
+    max-width: 100%;
+    margin-top: -60px;
+}
+.fluid-banner{
+	height: auto;
+	width: 100%;
+	min-width: 165px;
+	max-height: 635px;
+}
+/*CSS for Body Article*/
+.article-container{
+	margin-top: 25px;
+	padding:0 24px 10px 19px;
+}
+.article-header{
+	padding-bottom: 8px;
+}
+.article-header h4{
+	font-size: 23px;
+	display: inline;
+}
+.ecg-logo{
+	width:70px;
+	height:14px;
+	padding:0 10px;
+}
+#stetho_logo{
+	display: none;
+}
+.article-paragraph{
+	line-height: 1.7;
+	font-size: 15px;
+}
+.article-col{
+	width: auto;
+	flex:none;
+	padding:5px 10px 30px;
+}
+.article-col a{
+	font-size: 15px;
+	padding-left: 5px;
+	text-decoration: none;
+	color: #000000;
+}
+.article-col a:hover{
+	color: #17a2b8 ;
+}
+/*CSS for Departments*/
+.dept-container{
+	margin-top: 14px;
+	padding:0 24px 10px 19px;
+}
+.dept-header{
+	padding-bottom: 13px;
+}
+.dept-header h5{
+	display: inline;
+	color: #17a2b8;
+	font-size: 22px;
+}
+.dept-item{
+    margin: 25px 0 0;
+    height: auto;
+    min-width: 75px;
+    width: auto;
+}
+.dept-item h6{
+	padding: 20px 0 5px 0;
+}
+.dept-caption{
+	color: #17a2b8;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.dept-caption:hover{
+	text-decoration: none;
+	color:#000000; 
+}
+#medicine_logo,
+#gastrology_logo{
+	width:105px;
+}
+#neurology_logo{
+	width: 70px;
+}
+#cardiology_logo{
+	width: 90px;
+}
+#more_logo{
+	width: 75px;
+}
+/*CSS for footers*/
+.footer-line{
+	margin:30px 13px 0 13px;
+	height: 1px;
+	padding-left:10px;
+  	background: repeating-linear-gradient(to right, #17a2b8  0,#17a2b8  10px, #ffffff 10px, #ffffff 17px)
+}
+.footer-info{
+	padding-top: 20px;
+    text-align: center;
+    opacity: 70%;
+    font-size:12.5px;
+}}

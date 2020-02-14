@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px){
+/*CSS for nav bar*/
+#navbar_supported_content {
+    position: unset;
+}
+.nav-item {
+    background:transparent;
+    height: 60px;
+    padding-top: 10px;
+}
+.nav-item a {
+	font-size: 15px;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+/*CSS for Article*/
+.article-container{
+	margin-top: 25px;
+	padding: 0 0 25px;
+}
+.article-image{
+	float: right;
+	width:30%;
+	margin:0 5px;
+	max-height: 225px;
+	max-width: 200px;
+}
+#stetho_logo{
+	display: inline;
+	float:right;
+	padding:10px 0 0 20px;
+	max-width: 200px
+	max-height:225px;
+}
+/*CSS for department*/
+.dept-container{
+	margin-top: 0;
+	padding:0;
+}
+.dept-header{
+	padding-top: 5px;
+}
+.dept-item{
+    margin: 25px 0 0;
+    height: auto;
+}
+}
