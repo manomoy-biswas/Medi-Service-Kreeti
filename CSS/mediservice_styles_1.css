@@ -24,21 +24,21 @@ font-size:14px;
   	background-color: rgba(23,162,184,0.6);
   	box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.4);
 }
+.navbar-toggler-icon {
+	font-size: 24px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler{
+	top: 0;
+}
+.navbar-toggler:focus{
+	outline:none;
+}
 #navbar_supported_content {
 	position: absolute;
   	width: 100%;
   	top:60px;
   	left: 0;
-}
-.menu-icon {
-	width: 32px;
-	height: 5px;
-	margin: 5px 0;
-	border-radius: 10px;
-	background-color: #ffffff;
-}
-.menu-icon:focus{
-	outline: none;
 }
 .nav-item {
   	background-color: #17a2b8;
@@ -162,4 +162,4 @@ font-size:14px;
     text-align: center;
     opacity: 70%;
     font-size:12.5px;
-}}
+}
