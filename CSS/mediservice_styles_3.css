@@ -1,8 +1,9 @@
 @media screen and (min-width: 992px){
-.article-image{
-	margin-right: 50px;
-}
-.article-col{
+.why-choose-us-col{
 	padding-top:10px;
+}
+.why-choose-us-paragraph{
+	min-height: auto;
+	font-size: 15px;
 }
 }

@@ -14,28 +14,23 @@
     text-transform: uppercase;
 }
 /*CSS for Article*/
-.article-container{
-	margin-top: 25px;
-	padding: 0 0 25px;
+.why-choose-us-container{
+	padding-bottom: 25px;
 }
-.article-image{
-	float: right;
-	width:30%;
-	margin:0 5px;
-	max-height: 225px;
-	max-width: 200px;
+.why-choose-us-paragraph{
+	min-height: 200px;
+	font-size: 14.5px;
 }
 #stetho_logo{
 	display: inline;
 	float:right;
-	padding:10px 0 0 20px;
+	padding:10px 0 0 30px;
 	max-width: 200px;
 	max-height:225px;
 }
 /*CSS for department*/
 .dept-container{
 	margin-top: 0;
-	padding:0;
 }
 .dept-header{
 	padding-top: 5px;
