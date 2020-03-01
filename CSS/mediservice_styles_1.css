@@ -8,26 +8,34 @@ body{
 	margin: 0;
 	padding: 0;
 }
+a,
+a:hover{
+	text-decoration: none;
+}
 .container{
-	max-width: 992px;
+	max-width: 768px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
 }
 .header-text{
 font-size:14px;
+margin-left: 25px;
 }
-/*CSS for appointment button*/
-.btn-manual{
-	float: right;
-	padding: 4px 15px 4px;
+.appoinment-btn{
+	padding: 3px 15px 4px;
 	border-radius: 25px;
     font-size: 14px;
     font-weight: bold;
-    margin: 5px 5px 5px 0;
+    margin: 5px 15px 6px 0;
 }
-.btn-manual:hover{
+.appoinment-btn:hover{
 	background-color: #ffffff;
     color: #17a2b8;
 }
-/*CSS for Nav bar*/
 .navbar {
 	padding-top: 0;
 	height: 60px;
@@ -35,15 +43,19 @@ font-size:14px;
   	background-color: rgba(23,162,184,0.5);
   	box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.4);
 }
-.navbar-brand{
-	padding-top: 10px;
+#navbar_logo {
+  height: 45px;
+  padding-left: 15px;
+  padding-top: 5px;
 }
 .navbar-toggler-icon {
-	font-size: 24px;
+	font-size: 23px;
   	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar-toggler{
-	padding:0;
+	border: none;
+	padding: 0;
+	margin-right: 20px;
 }
 .navbar-toggler:focus{
 	outline:none;
@@ -69,74 +81,90 @@ font-size:14px;
 .nav-item:hover a {
 	color: #17a2b8;
 }
-/*CSS for Banner*/
-.banner {
+#banner {
     position: relative;
     margin-top: -60px;
 }
 .fluid-banner{
-	height: auto;
+	height: 165px;
 	width: 100%;
+	object-fit: cover;
 }
-/*CSS for Body Article*/
-.why-choose-us-container{
-	margin-top: 25px;
-	padding:0 26px 14px 20px;
+#why_choose_us{
+	margin-top: 23px;
+	padding-right: 25px;
+	padding-left: 15px;
 }
 .why-choose-us-header{
-	padding-bottom: 10px;
+	padding-left: 6px;
 }
 .why-choose-us-header h4{
 	font-size: 22px;
 	display: inline;
 }
-.ecg-logo{
-	width:70px;
-	padding:0 10px;
-}
-#stetho_logo{
+#body_image{
 	display: none;
 }
-.why-choose-us-paragraph{
-	line-height: 1.8;
+.ecg-logo{
+	width: 70px;
+	padding: 0 10px;
+}
+#paragraph{
+	margin-top: 13px;
+	margin-bottom: 16px;
+	line-height: 25px;
 	font-size: 14px;
+	padding-left: 6px;
 }
-.why-choose-us-col{
+.capsule-col{
+	padding:5px 0 30px;
 	width: auto;
-	flex:none;
-	padding:5px 10px 30px;
 }
-.why-choose-us-col a{
+#capsule_1,
+#capsule_3{
+	text-align: left;
+}
+#capsule_2,
+#capsule_4{
+	text-align: right;
+}
+.capsule-col a{
 	font-size: 14px;
 	padding-left: 5px;
-	text-decoration: none;
 	color: #000000;
 }
-/*CSS for Departments*/
-.dept-container{
-	margin-top: 10px;
+.capsule-col a:hover{
+	color: #17a2b8;
 }
-.dept-header{
+#department{
+	margin-top: 25px;
+}
+.department-header{
 	padding-bottom: 13px;
 }
-.dept-header h5{
+.department-header h5{
 	display: inline;
 	color: #17a2b8;
 	font-size: 22px;
 }
-.dept-item{
-    margin-top: 25px;
-    min-width: 75px;
+.department-col{
+    text-align: center;
 }
-.dept-item h6{
+.department-item{
+    margin-top: 25px;
+}
+.department-item h6{
 	padding: 20px 0 5px 0;
 }
-.dept-caption{
+.department-btn img:hover{
+	transform: scale(1.1);	
+	transition: transform .2s;
+}
+.department-caption{
 	color: #17a2b8;
 	font-weight:bolder;
 }
-.dept-caption:hover{
-	text-decoration: none;
+.department-caption:hover{
 	color:#000000; 
 }
 #medicine_logo,
@@ -150,13 +178,12 @@ font-size:14px;
 #cardiology_logo{
 	width: 95px;
 }
-/*CSS for footers*/
-.footer-line{
-	margin-top:30px;
+#footer_line{
+	margin:30px 17px 0;
 	height: 1px;
   	background: repeating-linear-gradient(to right, #17a2b8  0,#17a2b8  10px, #ffffff 10px, #ffffff 16px)
 }
-.footer-info{
+#footer_info{
 	padding-top: 20px;
     text-align: center;
     font-size:12px;

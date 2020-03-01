@@ -1,9 +1,42 @@
 @media screen and (min-width: 992px){
-.why-choose-us-col{
-	padding-top:10px;
-}
-.why-choose-us-paragraph{
-	min-height: auto;
-	font-size: 15px;
-}
+	.container{
+		max-width: 1960px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#navbar_logo{
+		padding-left: 35px;
+	}
+	.fluid-banner{
+		height: 435px;
+	}
+	#why_choose_us,
+	#department{
+		max-width: 992px;	
+	}
+	#why_choose_us{
+		margin-top:28px;
+		padding-left: 15px;
+	}
+
+	.why-choose-us-header{
+		padding-left: 5px;
+	}
+	#body_image{
+		padding-right: 35px;
+	}
+	#paragraph{
+		min-height: auto;
+		padding-bottom: 10px;
+		padding-left: 5px;
+		margin-top: 10px;
+	}
+	.capsule{
+		margin-top:20px;
+	}
+	#department{
+		padding-left: 20px;
+		padding-right: 10px;
+		margin-top: 5px;
+	}
 }
