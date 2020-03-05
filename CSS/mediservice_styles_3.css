@@ -1,42 +1,46 @@
 @media screen and (min-width: 992px){
 	.container{
-		max-width: 1960px;
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.wrapper{
+		max-width: 992px;
+		padding-left: 15px; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#topbar{
+		max-width: 1910px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav-container{
+		max-width: 1910px;
+	}
 	#navbar_logo{
-		padding-left: 35px;
+		padding-left: 30px;
 	}
 	.fluid-banner{
 		height: 435px;
-	}
-	#why_choose_us,
-	#department{
-		max-width: 992px;	
-	}
-	#why_choose_us{
-		margin-top:28px;
-		padding-left: 15px;
-	}
-
-	.why-choose-us-header{
-		padding-left: 5px;
 	}
 	#body_image{
 		padding-right: 35px;
 	}
 	#paragraph{
 		min-height: auto;
-		padding-bottom: 10px;
-		padding-left: 5px;
-		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-top: 4px;
 	}
-	.capsule{
+	.capsule-item{
 		margin-top:20px;
 	}
 	#department{
-		padding-left: 20px;
-		padding-right: 10px;
-		margin-top: 5px;
+		margin-top: 29px;
+	}
+	.department-header{
+		padding-bottom: 13px;
+	}
+	#more_logo{
+		padding-right: 0;
 	}
 }

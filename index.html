@@ -31,12 +31,13 @@
 	    	rel="stylesheet" media="screen and (min-width:768px)" href="./CSS/mediservice_styles_2.css"/>
 	    <link 
 	    	rel="stylesheet" media="screen and (min-width:922px)" href="./CSS/mediservice_styles_3.css"/>
-	    <link 
-	    	href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+	     <link 
+	     	href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet"/>
+
 	</head>
-	<body>
+	<body class="container">
 		<header>
-			<div class="container">
+			<div id="topbar">
 				<div class="row no-gutters align-items-center justify-content-between">
 					<div class="col-auto">
 						<span class="header-text">We are open 24hrs.</span>
@@ -46,8 +47,8 @@
 					</div>
 				</div>
 			</div>
-			<nav class="navbar navbar-expand-md container-fluid">
-				<div class="container">
+			<nav class="navbar navbar-expand-md">
+				<div class="container nav-container">
 			  		<img src="assets/Images/logo.png" alt="mediservice-logo" id="navbar_logo"/>
 			    	<button 
 				    	class="navbar-toggler" 
@@ -79,93 +80,97 @@
 			</nav>
 		</header>
 
-		<section id="banner" class="container-fluid">
+		<figure id="banner">
 			<img class="fluid-banner" src="./assets/Images/index_banner.jpg" alt="banner-image">
+		</figure>
+
+		<section id="why_choose_us">
+			<div class="wrapper">
+				<div class="why-choose-us-header">
+					<h4>Why Choose Us</h4>
+					<img src="./assets/Images/ecg.png" alt="ecg-logo" class="ecg-logo">
+				</div>
+				<div>
+					<figure id="body_image">
+						 <img src="./assets/Images/stetho.png" alt="stetho-logo" id="stetho_logo">
+					</figure>
+					<p id="paragraph">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+					<div class="row capsule-item no-gutters align-items-center justify-content-between">
+						<div id="capsule_1" class="col-6 col-md-3 capsule-item-column">
+							<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo" class="capsule-logo"> </a>
+							<a href="#"><span>Lorem Ipsum</span></a>
+						</div>
+						<div id="capsule_2" class="col-6 col-md-3 capsule-item-column">
+							<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo"> </a>
+							<a href="#"><span>Lorem Ipsum</span></a>
+						</div>
+						<div id="capsule_3" class="col-6 col-md-3 capsule-item-column">
+							<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo"> </a>
+							<a href="#"><span>Lorem Ipsum</span></a>				
+						</div>
+						<div id="capsule_4" class="col-6 col-md-3 capsule-item-column">
+							<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo" class="capsule-logo"> </a>
+							<a href="#"><span>Lorem Ipsum</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
-		<section id="why_choose_us" class="container-fluid">
-			<div class="why-choose-us-header">
-				<h4>Why Choose Us</h4>
-				<img src="./assets/Images/ecg.png" alt="ecg-logo" class="ecg-logo">
-			</div>
-			<div>
-				<figure id="body_image">
-					 <img src="./assets/Images/stetho.png" alt="stetho-logo" id="stetho_logo">
-				</figure>
-				<p id="paragraph">
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-				</p>
-				<div class="row capsule no-gutters align-items-center justify-content-between">
-					<div id="capsule_1" class="col-6 col-md-3 capsule-col">
-						<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo" class="capsule-logo"> </a>
-						<a href="#"><span>Lorem Ipsum</span></a>
+		<section id="department">
+			<div class="wrapper">
+		  		<div class="department-header text-center">
+					<img src="./assets/Images/ecg.png" alt="ecg-logo" class="ecg-logo">
+					<h5>Our Departments</h5>
+					<img src="./assets/Images/ecg.png" alt="ecg-logo" class="ecg-logo">
+				</div>
+				<div class="row no-gutters align-items-end justify-content-between">
+					<div class="col-12 col-md-3 department-item-column">
+						<div class="department-item">
+							<a class="department-btn" href="#">
+					      		<img src="./assets/Images/medicine.png" alt="medicine-logo" id="medicine_logo">
+					      	</a>
+				      		<h6><a class="department-caption" href="#">Medicine</a></h6>
+					    </div>
 					</div>
-					<div id="capsule_2" class="col-6 col-md-3 capsule-col">
-						<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo"> </a>
-						<a href="#"><span>Lorem Ipsum</span></a>
+					<div class="col-12 col-md-2 department-item-column">
+						<div class="department-item">
+							<a class="department-btn" href="#">
+			      				<img src="./assets/Images/brain.png" alt="neurology-logo" id="neurology_logo">
+			   				</a>
+				      		<h6><a class="department-caption" href="#">Neurology</a></h6>
+				      	</div>
 					</div>
-					<div id="capsule_3" class="col-6 col-md-3 capsule-col">
-						<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo"> </a>
-						<a href="#"><span>Lorem Ipsum</span></a>				
+					<div class="col-12 col-md-2 department-item-column">
+						<div class="department-item">
+							<a class="department-btn" href="#">
+					      		<img src="./assets/Images/Gastroenterology.png" alt="gastrology-logo" id="gastrology_logo">
+					      	</a>
+				      		<h6><a class="department-caption" href="#">Gastrology</a></h6>
+				      	</div>
 					</div>
-					<div id="capsule_4" class="col-6 col-md-3 capsule-col">
-						<a href="#"><img src="./assets/Images/tab.png" alt="capsule-logo" class="capsule-logo"> </a>
-						<a href="#"><span>Lorem Ipsum</span></a>
+					<div class="col-12 col-md-3 department-item-column">
+						<div class="department-item align-items-center">
+							<a class="department-btn" href="#">
+					      		<img src="./assets/Images/cardiology.png" alt="cardiology-logo" id="cardiology_logo">
+					      	</a>
+				      		<h6><a class="department-caption" href="#">Cardiology</a></h6>
+					    </div>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="department" class="container-fluid">
-	  		<div class="department-header text-center">
-				<img src="./assets/Images/ecg.png" alt="ecg-logo" class="ecg-logo">
-				<h5>Our Departments</h5>
-				<img src="./assets/Images/ecg.png" alt="ecg-logo" class="ecg-logo">
-			</div>
-			<div class="row no-gutters align-items-end justify-content-between">
-				<div class="col-12 col-md-3 department-col">
-					<div class="department-item">
-						<a class="department-btn" href="#">
-				      		<img src="./assets/Images/medicine.png" alt="medicine-logo" id="medicine_logo">
-				      	</a>
-			      		<h6><a class="department-caption" href="#">Medicine</a></h6>
-				    </div>
-				</div>
-				<div class="col-12 col-md-2 department-col">
-					<div class="department-item">
-						<a class="department-btn" href="#">
-		      				<img src="./assets/Images/brain.png" alt="neurology-logo" id="neurology_logo">
-		   				</a>
-			      		<h6><a class="department-caption" href="#">Neurology</a></h6>
-			      	</div>
-				</div>
-				<div class="col-12 col-md-2 department-col">
-					<div class="department-item">
-						<a class="department-btn" href="#">
-				      		<img src="./assets/Images/Gastroenterology.png" alt="gastrology-logo" id="gastrology_logo">
-				      	</a>
-			      		<h6><a class="department-caption" href="#">Gastrology</a></h6>
-			      	</div>
-				</div>
-				<div class="col-12 col-md-3 department-col">
-					<div class="department-item align-items-center">
-						<a class="department-btn" href="#">
-				      		<img src="./assets/Images/cardiology.png" alt="cardiology-logo" id="cardiology_logo">
-				      	</a>
-			      		<h6><a class="department-caption" href="#">Cardiology</a></h6>
-				    </div>
-				</div>
-				<div class="col-12 col-md-2 department-col">
-					<div class="department-item text-center">
-						<a class="department-btn" href="#">
-				      		<img src="./assets/Images/more.png" alt="more-logo" id="more_logo">
-				      	</a>
-				    </div>
+					<div class="col-12 col-md-2 department-item-column">
+						<div class="department-item text-center">
+							<a class="department-btn" href="#">
+					      		<img src="./assets/Images/more.png" alt="more-logo" id="more_logo">
+					      	</a>
+					    </div>
+					</div>
 				</div>
 			</div>
 		</section>
 		
-		<footer class="container-fluid">
+		<footer>
 			<div id="footer_line"></div>
 			<p id="footer_info">Copyright &copy; 2019 yummy crossing. All rights reserved.</p>
 		</footer>

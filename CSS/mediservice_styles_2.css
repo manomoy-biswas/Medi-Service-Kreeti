@@ -1,12 +1,12 @@
 @media screen and (min-width: 768px){
-	.container{
-		max-width: 992px;
+	.wrapper{
+		padding-left:20px;
 	}
 	.appoinment-btn{
 		margin-right: 25px;
 	}
 	.navbar{
-		padding:0 15px 10px 0;
+		padding:0 22px 10px 0;
 	}
 	#navbar_logo {
 		padding-top: 10px;
@@ -15,7 +15,6 @@
 	}
 	#navbar_supported_content {
 	    position: relative;
-	    z-index: 1;
 	    top: 0px;
 	}
 	.nav-item {
@@ -32,15 +31,11 @@
 	.fluid-banner{
 		height: 335px;
 	}
-	#why_choose_us{
-		padding-bottom: 24px;
-		padding-left: 20px;
-	}
 	#body_image{
 		display:inline;
 		float: right;
 		padding-top: 5px;
-		padding-left: 30px;
+		padding-left: 35px;
 	}
 	#stetho_logo{
 		width: 165px;
@@ -48,23 +43,23 @@
 	#paragraph{
 		min-height: 225px;
 		font-size: 14.5px;
-		line-height: 25px;
-		margin-bottom: 2px;
+		margin-bottom: 0;
 	}
-	.capsule-col{
+	.capsule-item{
+		max-width: 992px;
+}
+	.capsule-item-column{
 		flex: none;
 		width: auto;
 		padding-top: 0;
 	}
 	#department{
-		margin-top: 0;
-		padding-left: 20px;
-		padding-right:15px;
+		margin-top: 24px;
 	}
 	.department-header{
 		padding-bottom: 18px;
 	}
-	.department-col{
+	.department-item-column{
 		flex: none;
 		width: auto;
 	}
