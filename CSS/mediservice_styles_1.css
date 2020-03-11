@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font: 400 14px/1.5 "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 body{
 	margin: 0;
@@ -82,14 +82,13 @@ a:hover{
 .nav-item:hover a {
 	color: #17a2b8;
 }
-#banner {
+#site_banner {
+	background: url("../assets/Images/index_banner.jpg") no-repeat left top/cover;
+	color: #ffffff;
     position: relative;
-    margin-top: -60px;
-}
-.fluid-banner{
-	height: 165px;
+    height: 165px;
 	width: 100%;
-	object-fit: cover;
+    margin-top: -60px;
 }
 #why_choose_us{
 	padding-top: 8px;

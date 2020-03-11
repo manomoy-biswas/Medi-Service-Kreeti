@@ -20,7 +20,7 @@
 	#navbar_logo{
 		padding-left: 30px;
 	}
-	.fluid-banner{
+	#site_banner{
 		height: 435px;
 	}
 	#body_image{
@@ -42,5 +42,11 @@
 	}
 	#more_logo{
 		padding-right: 0;
+	}
+}
+@media screen and (min-width: 1370px)
+{
+	#site_banner{
+		height: 550px;
 	}
 }

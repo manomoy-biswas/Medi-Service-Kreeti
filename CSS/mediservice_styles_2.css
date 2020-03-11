@@ -28,7 +28,7 @@
 		font-weight: bold;
 	    text-transform: uppercase;
 	}
-	.fluid-banner{
+	#site_banner{
 		height: 335px;
 	}
 	#body_image{
