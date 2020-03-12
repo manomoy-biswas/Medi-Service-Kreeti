@@ -1,73 +1,73 @@
 @media screen and (min-width: 768px){
-	.wrapper{
-		padding-left:20px;
-	}
-	.appoinment-btn{
-		margin-right: 25px;
-	}
-	.navbar{
-		padding:0 22px 10px 0;
-	}
-	#navbar_logo {
-		padding-top: 10px;
-		height: 53px;
-		padding-left: 25px;
-	}
-	#navbar_supported_content {
-	    position: relative;
-	    top: 0px;
-	}
-	.nav-item {
-	    background:transparent;
-	    height: 60px;
-	    margin-top: 10px;
-	    padding-top: 10px;
-	}
-	.nav-item a {
-		font-size: 14px;
-		font-weight: bold;
-	    text-transform: uppercase;
-	}
-	#site_banner{
-		height: 335px;
-	}
-	#body_image{
-		display:inline;
-		float: right;
-		padding-top: 5px;
-		padding-left: 35px;
-	}
-	#stetho_logo{
-		width: 165px;
-	}
-	#paragraph{
-		min-height: 225px;
-		font-size: 14.5px;
-		margin-bottom: 0;
-	}
-	.capsule-item{
-		max-width: 992px;
-}
-	.capsule-item-column{
-		flex: none;
-		width: auto;
-		padding-top: 0;
-	}
-	#department{
-		margin-top: 24px;
-	}
-	.department-header{
-		padding-bottom: 18px;
-	}
-	.department-item-column{
-		flex: none;
-		width: auto;
-	}
-	#more_logo
-	{
-		width: 80px;
-		float: right;
-		padding-right: 10px;
-		margin-bottom: 80%;
-	}
+  .wrapper{
+	padding-left:20px;
+  }
+  .appoinment-btn{
+	margin-right: 25px;
+  }
+  .navbar{
+	padding:0 22px 10px 0;
+  }
+  #navbar_logo {
+	padding-top: 10px;
+	height: 53px;
+	padding-left: 25px;
+  }
+  #navbar_supported_content {
+    position: relative;
+    top: 0px;
+  }
+  .nav-item {
+    background:transparent;
+    height: 60px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .nav-item a {
+	font-size: 14px;
+	font-weight: bold;
+    text-transform: uppercase;
+  }
+  #site_banner{
+	height: 335px;
+  }
+  #body_image{
+	display:inline;
+	float: right;
+	padding-top: 5px;
+	padding-left: 35px;
+  }
+  #stetho_logo{
+	width: 165px;
+  }
+  #paragraph{
+	min-height: 225px;
+	font-size: 14.5px;
+	margin-bottom: 0;
+  }
+  .capsule-item{
+	max-width: 992px;
+  }
+  .capsule-item-column{
+	flex: none;
+	width: auto;
+	padding-top: 0;
+  }
+  #department{
+	margin-top: 24px;
+  }
+  .department-header{
+ 	padding-bottom: 18px;
+  }
+  .department-item-column{
+	flex: none;
+	width: auto;
+  }
+  #more_logo
+  {
+	width: 80px;
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 80%;
+  }
 }
